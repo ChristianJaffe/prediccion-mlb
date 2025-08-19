@@ -34,9 +34,9 @@ st.header("Realizar una Nueva Predicción")
 # Usamos columnas para organizar la entrada
 col1, col2 = st.columns(2)
 with col1:
-    apellido = st.text_input("Apellido del Pitcher:", "Cole")
+    apellido = st.text_input("Apellido del Pitcher:", " ")
 with col2:
-    nombre = st.text_input("Nombre del Pitcher:", "Gerrit")
+    nombre = st.text_input("Nombre del Pitcher:", " ")
 
 nombre_completo_pitcher = f"{apellido}, {nombre}"
 
